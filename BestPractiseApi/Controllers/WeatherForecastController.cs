@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BestPractiseApi.Data;
 using BestPractiseApi.models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -28,10 +29,7 @@ namespace BestPractiseApi.Controllers
         [HttpGet]
         public ActionResult Get(int limit = 10, int offset = 0)
         {
-            string allText = System.IO.File.ReadAllText(@"data.json");
-
-            WeatherForecastData dataFromJson = JsonConvert.DeserializeObject<WeatherForecastData>(allText);
-            var data = dataFromJson?.Results?
+            var data = DataService.GetWeatherForecastData()?.Results?
                 .Skip(offset)
                 .Take(limit)
                 .ToList();

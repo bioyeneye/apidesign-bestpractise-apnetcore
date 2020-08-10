@@ -9,7 +9,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Update="data.json">
+      <Content Update="Data\data.json">
         <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
