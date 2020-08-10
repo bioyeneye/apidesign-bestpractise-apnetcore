@@ -1,0 +1,704 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "date": "2020-08-11T07:38:12.93175+01:00",
+      "temperatureC": -15,
+      "temperatureF": 6,
+      "summary": "Balmy"
+    },
+    {
+      "id": 2,
+      "date": "2020-08-12T07:38:12.931768+01:00",
+      "temperatureC": 5,
+      "temperatureF": 40,
+      "summary": "Mild"
+    },
+    {
+      "id": 3,
+      "date": "2020-08-13T07:38:12.931777+01:00",
+      "temperatureC": 27,
+      "temperatureF": 80,
+      "summary": "Hot"
+    },
+    {
+      "id": 4,
+      "date": "2020-08-14T07:38:12.931786+01:00",
+      "temperatureC": -18,
+      "temperatureF": 0,
+      "summary": "Hot"
+    },
+    {
+      "id": 5,
+      "date": "2020-08-15T07:38:12.931793+01:00",
+      "temperatureC": -6,
+      "temperatureF": 22,
+      "summary": "Scorching"
+    },
+    {
+      "id": 6,
+      "date": "2020-08-16T07:38:12.9318+01:00",
+      "temperatureC": 20,
+      "temperatureF": 67,
+      "summary": "Hot"
+    },
+    {
+      "id": 7,
+      "date": "2020-08-17T07:38:12.931806+01:00",
+      "temperatureC": 9,
+      "temperatureF": 48,
+      "summary": "Freezing"
+    },
+    {
+      "id": 8,
+      "date": "2020-08-18T07:38:12.931813+01:00",
+      "temperatureC": 48,
+      "temperatureF": 118,
+      "summary": "Hot"
+    },
+    {
+      "id": 9,
+      "date": "2020-08-19T07:38:12.931819+01:00",
+      "temperatureC": 3,
+      "temperatureF": 37,
+      "summary": "Freezing"
+    },
+    {
+      "id": 10,
+      "date": "2020-08-20T07:38:12.931826+01:00",
+      "temperatureC": 1,
+      "temperatureF": 33,
+      "summary": "Balmy"
+    },
+    {
+      "id": 11,
+      "date": "2020-08-21T07:38:12.93184+01:00",
+      "temperatureC": -17,
+      "temperatureF": 2,
+      "summary": "Hot"
+    },
+    {
+      "id": 12,
+      "date": "2020-08-22T07:38:12.931848+01:00",
+      "temperatureC": 12,
+      "temperatureF": 53,
+      "summary": "Scorching"
+    },
+    {
+      "id": 13,
+      "date": "2020-08-23T07:38:12.931855+01:00",
+      "temperatureC": 18,
+      "temperatureF": 64,
+      "summary": "Bracing"
+    },
+    {
+      "id": 14,
+      "date": "2020-08-24T07:38:12.931863+01:00",
+      "temperatureC": 29,
+      "temperatureF": 84,
+      "summary": "Scorching"
+    },
+    {
+      "id": 15,
+      "date": "2020-08-25T07:38:12.93187+01:00",
+      "temperatureC": 19,
+      "temperatureF": 66,
+      "summary": "Bracing"
+    },
+    {
+      "id": 16,
+      "date": "2020-08-26T07:38:12.931879+01:00",
+      "temperatureC": -9,
+      "temperatureF": 16,
+      "summary": "Chilly"
+    },
+    {
+      "id": 17,
+      "date": "2020-08-27T07:38:12.931882+01:00",
+      "temperatureC": -19,
+      "temperatureF": -2,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 18,
+      "date": "2020-08-28T07:38:12.931886+01:00",
+      "temperatureC": 14,
+      "temperatureF": 57,
+      "summary": "Balmy"
+    },
+    {
+      "id": 19,
+      "date": "2020-08-29T07:38:12.931889+01:00",
+      "temperatureC": 7,
+      "temperatureF": 44,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 20,
+      "date": "2020-08-30T07:38:12.931893+01:00",
+      "temperatureC": 22,
+      "temperatureF": 71,
+      "summary": "Scorching"
+    },
+    {
+      "id": 21,
+      "date": "2020-08-31T07:38:12.931896+01:00",
+      "temperatureC": 28,
+      "temperatureF": 82,
+      "summary": "Hot"
+    },
+    {
+      "id": 22,
+      "date": "2020-09-01T07:38:12.931901+01:00",
+      "temperatureC": -4,
+      "temperatureF": 25,
+      "summary": "Freezing"
+    },
+    {
+      "id": 23,
+      "date": "2020-09-02T07:38:12.931904+01:00",
+      "temperatureC": 23,
+      "temperatureF": 73,
+      "summary": "Chilly"
+    },
+    {
+      "id": 24,
+      "date": "2020-09-03T07:38:12.931911+01:00",
+      "temperatureC": 48,
+      "temperatureF": 118,
+      "summary": "Hot"
+    },
+    {
+      "id": 25,
+      "date": "2020-09-04T07:38:12.931914+01:00",
+      "temperatureC": 36,
+      "temperatureF": 96,
+      "summary": "Scorching"
+    },
+    {
+      "id": 26,
+      "date": "2020-09-05T07:38:12.931917+01:00",
+      "temperatureC": -15,
+      "temperatureF": 6,
+      "summary": "Bracing"
+    },
+    {
+      "id": 27,
+      "date": "2020-09-06T07:38:12.931918+01:00",
+      "temperatureC": 15,
+      "temperatureF": 58,
+      "summary": "Warm"
+    },
+    {
+      "id": 28,
+      "date": "2020-09-07T07:38:12.931921+01:00",
+      "temperatureC": -10,
+      "temperatureF": 15,
+      "summary": "Cool"
+    },
+    {
+      "id": 29,
+      "date": "2020-09-08T07:38:12.931926+01:00",
+      "temperatureC": -4,
+      "temperatureF": 25,
+      "summary": "Mild"
+    },
+    {
+      "id": 30,
+      "date": "2020-09-09T07:38:12.931926+01:00",
+      "temperatureC": 50,
+      "temperatureF": 121,
+      "summary": "Mild"
+    },
+    {
+      "id": 31,
+      "date": "2020-09-10T07:38:12.931926+01:00",
+      "temperatureC": -15,
+      "temperatureF": 6,
+      "summary": "Freezing"
+    },
+    {
+      "id": 32,
+      "date": "2020-09-11T07:38:12.931926+01:00",
+      "temperatureC": -6,
+      "temperatureF": 22,
+      "summary": "Freezing"
+    },
+    {
+      "id": 33,
+      "date": "2020-09-12T07:38:12.931927+01:00",
+      "temperatureC": 42,
+      "temperatureF": 107,
+      "summary": "Chilly"
+    },
+    {
+      "id": 34,
+      "date": "2020-09-13T07:38:12.931927+01:00",
+      "temperatureC": 36,
+      "temperatureF": 96,
+      "summary": "Warm"
+    },
+    {
+      "id": 35,
+      "date": "2020-09-14T07:38:12.931927+01:00",
+      "temperatureC": 26,
+      "temperatureF": 78,
+      "summary": "Chilly"
+    },
+    {
+      "id": 36,
+      "date": "2020-09-15T07:38:12.931927+01:00",
+      "temperatureC": 5,
+      "temperatureF": 40,
+      "summary": "Mild"
+    },
+    {
+      "id": 37,
+      "date": "2020-09-16T07:38:12.931927+01:00",
+      "temperatureC": 18,
+      "temperatureF": 64,
+      "summary": "Chilly"
+    },
+    {
+      "id": 38,
+      "date": "2020-09-17T07:38:12.931928+01:00",
+      "temperatureC": 54,
+      "temperatureF": 129,
+      "summary": "Cool"
+    },
+    {
+      "id": 39,
+      "date": "2020-09-18T07:38:12.931928+01:00",
+      "temperatureC": 20,
+      "temperatureF": 67,
+      "summary": "Cool"
+    },
+    {
+      "id": 40,
+      "date": "2020-09-19T07:38:12.931928+01:00",
+      "temperatureC": 5,
+      "temperatureF": 40,
+      "summary": "Cool"
+    },
+    {
+      "id": 41,
+      "date": "2020-09-20T07:38:12.931928+01:00",
+      "temperatureC": 0,
+      "temperatureF": 32,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 42,
+      "date": "2020-09-21T07:38:12.931928+01:00",
+      "temperatureC": -6,
+      "temperatureF": 22,
+      "summary": "Warm"
+    },
+    {
+      "id": 43,
+      "date": "2020-09-22T07:38:12.931929+01:00",
+      "temperatureC": -18,
+      "temperatureF": 0,
+      "summary": "Scorching"
+    },
+    {
+      "id": 44,
+      "date": "2020-09-23T07:38:12.931929+01:00",
+      "temperatureC": 39,
+      "temperatureF": 102,
+      "summary": "Mild"
+    },
+    {
+      "id": 45,
+      "date": "2020-09-24T07:38:12.931929+01:00",
+      "temperatureC": 30,
+      "temperatureF": 85,
+      "summary": "Bracing"
+    },
+    {
+      "id": 46,
+      "date": "2020-09-25T07:38:12.931929+01:00",
+      "temperatureC": 13,
+      "temperatureF": 55,
+      "summary": "Scorching"
+    },
+    {
+      "id": 47,
+      "date": "2020-09-26T07:38:12.931929+01:00",
+      "temperatureC": 49,
+      "temperatureF": 120,
+      "summary": "Bracing"
+    },
+    {
+      "id": 48,
+      "date": "2020-09-27T07:38:12.93193+01:00",
+      "temperatureC": 49,
+      "temperatureF": 120,
+      "summary": "Warm"
+    },
+    {
+      "id": 49,
+      "date": "2020-09-28T07:38:12.93193+01:00",
+      "temperatureC": 19,
+      "temperatureF": 66,
+      "summary": "Bracing"
+    },
+    {
+      "id": 50,
+      "date": "2020-09-29T07:38:12.93193+01:00",
+      "temperatureC": 0,
+      "temperatureF": 32,
+      "summary": "Cool"
+    },
+    {
+      "id": 51,
+      "date": "2020-09-30T07:38:12.93193+01:00",
+      "temperatureC": 13,
+      "temperatureF": 55,
+      "summary": "Cool"
+    },
+    {
+      "id": 52,
+      "date": "2020-10-01T07:38:12.93193+01:00",
+      "temperatureC": -8,
+      "temperatureF": 18,
+      "summary": "Mild"
+    },
+    {
+      "id": 53,
+      "date": "2020-10-02T07:38:12.93193+01:00",
+      "temperatureC": 26,
+      "temperatureF": 78,
+      "summary": "Balmy"
+    },
+    {
+      "id": 54,
+      "date": "2020-10-03T07:38:12.931931+01:00",
+      "temperatureC": 30,
+      "temperatureF": 85,
+      "summary": "Bracing"
+    },
+    {
+      "id": 55,
+      "date": "2020-10-04T07:38:12.931931+01:00",
+      "temperatureC": 20,
+      "temperatureF": 67,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 56,
+      "date": "2020-10-05T07:38:12.931949+01:00",
+      "temperatureC": 37,
+      "temperatureF": 98,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 57,
+      "date": "2020-10-06T07:38:12.93195+01:00",
+      "temperatureC": -15,
+      "temperatureF": 6,
+      "summary": "Balmy"
+    },
+    {
+      "id": 58,
+      "date": "2020-10-07T07:38:12.93195+01:00",
+      "temperatureC": -8,
+      "temperatureF": 18,
+      "summary": "Chilly"
+    },
+    {
+      "id": 59,
+      "date": "2020-10-08T07:38:12.93195+01:00",
+      "temperatureC": 47,
+      "temperatureF": 116,
+      "summary": "Balmy"
+    },
+    {
+      "id": 60,
+      "date": "2020-10-09T07:38:12.93195+01:00",
+      "temperatureC": -17,
+      "temperatureF": 2,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 61,
+      "date": "2020-10-10T07:38:12.93195+01:00",
+      "temperatureC": 15,
+      "temperatureF": 58,
+      "summary": "Chilly"
+    },
+    {
+      "id": 62,
+      "date": "2020-10-11T07:38:12.931951+01:00",
+      "temperatureC": 47,
+      "temperatureF": 116,
+      "summary": "Mild"
+    },
+    {
+      "id": 63,
+      "date": "2020-10-12T07:38:12.931951+01:00",
+      "temperatureC": 40,
+      "temperatureF": 103,
+      "summary": "Cool"
+    },
+    {
+      "id": 64,
+      "date": "2020-10-13T07:38:12.931951+01:00",
+      "temperatureC": 19,
+      "temperatureF": 66,
+      "summary": "Cool"
+    },
+    {
+      "id": 65,
+      "date": "2020-10-14T07:38:12.931951+01:00",
+      "temperatureC": 7,
+      "temperatureF": 44,
+      "summary": "Mild"
+    },
+    {
+      "id": 66,
+      "date": "2020-10-15T07:38:12.931951+01:00",
+      "temperatureC": 40,
+      "temperatureF": 103,
+      "summary": "Mild"
+    },
+    {
+      "id": 67,
+      "date": "2020-10-16T07:38:12.931951+01:00",
+      "temperatureC": -16,
+      "temperatureF": 4,
+      "summary": "Freezing"
+    },
+    {
+      "id": 68,
+      "date": "2020-10-17T07:38:12.931952+01:00",
+      "temperatureC": 45,
+      "temperatureF": 112,
+      "summary": "Scorching"
+    },
+    {
+      "id": 69,
+      "date": "2020-10-18T07:38:12.931952+01:00",
+      "temperatureC": 33,
+      "temperatureF": 91,
+      "summary": "Balmy"
+    },
+    {
+      "id": 70,
+      "date": "2020-10-19T07:38:12.931952+01:00",
+      "temperatureC": 51,
+      "temperatureF": 123,
+      "summary": "Mild"
+    },
+    {
+      "id": 71,
+      "date": "2020-10-20T07:38:12.931952+01:00",
+      "temperatureC": 2,
+      "temperatureF": 35,
+      "summary": "Balmy"
+    },
+    {
+      "id": 72,
+      "date": "2020-10-21T07:38:12.931952+01:00",
+      "temperatureC": 51,
+      "temperatureF": 123,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 73,
+      "date": "2020-10-22T07:38:12.931953+01:00",
+      "temperatureC": 8,
+      "temperatureF": 46,
+      "summary": "Warm"
+    },
+    {
+      "id": 74,
+      "date": "2020-10-23T07:38:12.931953+01:00",
+      "temperatureC": 46,
+      "temperatureF": 114,
+      "summary": "Cool"
+    },
+    {
+      "id": 75,
+      "date": "2020-10-24T07:38:12.931953+01:00",
+      "temperatureC": 51,
+      "temperatureF": 123,
+      "summary": "Hot"
+    },
+    {
+      "id": 76,
+      "date": "2020-10-25T07:38:12.931953+01:00",
+      "temperatureC": 29,
+      "temperatureF": 84,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 77,
+      "date": "2020-10-26T07:38:12.931953+01:00",
+      "temperatureC": -13,
+      "temperatureF": 9,
+      "summary": "Mild"
+    },
+    {
+      "id": 78,
+      "date": "2020-10-27T07:38:12.931954+01:00",
+      "temperatureC": 43,
+      "temperatureF": 109,
+      "summary": "Bracing"
+    },
+    {
+      "id": 79,
+      "date": "2020-10-28T07:38:12.931954+01:00",
+      "temperatureC": 11,
+      "temperatureF": 51,
+      "summary": "Balmy"
+    },
+    {
+      "id": 80,
+      "date": "2020-10-29T07:38:12.931954+01:00",
+      "temperatureC": 31,
+      "temperatureF": 87,
+      "summary": "Chilly"
+    },
+    {
+      "id": 81,
+      "date": "2020-10-30T07:38:12.931954+01:00",
+      "temperatureC": -14,
+      "temperatureF": 7,
+      "summary": "Chilly"
+    },
+    {
+      "id": 82,
+      "date": "2020-10-31T07:38:12.931954+01:00",
+      "temperatureC": 40,
+      "temperatureF": 103,
+      "summary": "Bracing"
+    },
+    {
+      "id": 83,
+      "date": "2020-11-01T07:38:12.931955+01:00",
+      "temperatureC": -20,
+      "temperatureF": -3,
+      "summary": "Cool"
+    },
+    {
+      "id": 84,
+      "date": "2020-11-02T07:38:12.931955+01:00",
+      "temperatureC": 42,
+      "temperatureF": 107,
+      "summary": "Freezing"
+    },
+    {
+      "id": 85,
+      "date": "2020-11-03T07:38:12.931955+01:00",
+      "temperatureC": 36,
+      "temperatureF": 96,
+      "summary": "Chilly"
+    },
+    {
+      "id": 86,
+      "date": "2020-11-04T07:38:12.931955+01:00",
+      "temperatureC": 16,
+      "temperatureF": 60,
+      "summary": "Chilly"
+    },
+    {
+      "id": 87,
+      "date": "2020-11-05T07:38:12.931955+01:00",
+      "temperatureC": 29,
+      "temperatureF": 84,
+      "summary": "Balmy"
+    },
+    {
+      "id": 88,
+      "date": "2020-11-06T07:38:12.931956+01:00",
+      "temperatureC": 22,
+      "temperatureF": 71,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 89,
+      "date": "2020-11-07T07:38:12.931956+01:00",
+      "temperatureC": 2,
+      "temperatureF": 35,
+      "summary": "Freezing"
+    },
+    {
+      "id": 90,
+      "date": "2020-11-08T07:38:12.931956+01:00",
+      "temperatureC": -14,
+      "temperatureF": 7,
+      "summary": "Chilly"
+    },
+    {
+      "id": 91,
+      "date": "2020-11-09T07:38:12.931956+01:00",
+      "temperatureC": 16,
+      "temperatureF": 60,
+      "summary": "Chilly"
+    },
+    {
+      "id": 92,
+      "date": "2020-11-10T07:38:12.931956+01:00",
+      "temperatureC": 12,
+      "temperatureF": 53,
+      "summary": "Balmy"
+    },
+    {
+      "id": 93,
+      "date": "2020-11-11T07:38:12.931956+01:00",
+      "temperatureC": 36,
+      "temperatureF": 96,
+      "summary": "Scorching"
+    },
+    {
+      "id": 94,
+      "date": "2020-11-12T07:38:12.931957+01:00",
+      "temperatureC": 2,
+      "temperatureF": 35,
+      "summary": "Balmy"
+    },
+    {
+      "id": 95,
+      "date": "2020-11-13T07:38:12.931957+01:00",
+      "temperatureC": -7,
+      "temperatureF": 20,
+      "summary": "Balmy"
+    },
+    {
+      "id": 96,
+      "date": "2020-11-14T07:38:12.931957+01:00",
+      "temperatureC": 19,
+      "temperatureF": 66,
+      "summary": "Freezing"
+    },
+    {
+      "id": 97,
+      "date": "2020-11-15T07:38:12.931957+01:00",
+      "temperatureC": -19,
+      "temperatureF": -2,
+      "summary": "Hot"
+    },
+    {
+      "id": 98,
+      "date": "2020-11-16T07:38:12.931957+01:00",
+      "temperatureC": 4,
+      "temperatureF": 39,
+      "summary": "Freezing"
+    },
+    {
+      "id": 99,
+      "date": "2020-11-17T07:38:12.931958+01:00",
+      "temperatureC": 40,
+      "temperatureF": 103,
+      "summary": "Sweltering"
+    },
+    {
+      "id": 100,
+      "date": "2020-11-18T07:38:12.931958+01:00",
+      "temperatureC": 44,
+      "temperatureF": 111,
+      "summary": "Freezing"
+    }
+  ]
+}

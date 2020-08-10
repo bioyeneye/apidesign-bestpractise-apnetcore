@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BestPractiseApi.models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace BestPractiseApi.Controllers
 {
@@ -26,19 +28,15 @@ namespace BestPractiseApi.Controllers
         [HttpGet]
         public ActionResult Get(int limit = 10, int offset = 0)
         {
-            var rng = new Random();
-            var data = Enumerable.Range(1, 100).Select(index => new WeatherForecast
-                {
-                    Id = index,
-                    Date = DateTime.Now.AddDays(index),
-                    TemperatureC = rng.Next(-20, 55),
-                    Summary = Summaries[rng.Next(Summaries.Length)]
-                })
+            string allText = System.IO.File.ReadAllText(@"data.json");
+
+            WeatherForecastData dataFromJson = JsonConvert.DeserializeObject<WeatherForecastData>(allText);
+            var data = dataFromJson?.Results?
                 .Skip(offset)
                 .Take(limit)
                 .ToList();
 
-            return Ok(ConstructPaginatedResult(data, 100, limit, offset));
+            return Ok(ConstructPaginatedResult(data ?? new List<WeatherForecast>(), 100, limit, offset));
         }
     }
 }
