@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using BestPractiseApi.models;
+using CsharpProjectLibrary.models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BestPractiseApi.Controllers
@@ -7,7 +7,7 @@ namespace BestPractiseApi.Controllers
     public class BaseApiController : ControllerBase
     {
         [NonAction]
-        public PaginatedResult<T> ConstructPaginatedResult<T>(List<T> data, int count, int limit, int offset)
+        protected PaginatedResult<T> ConstructPaginatedResult<T>(List<T> data, int count, int limit, int offset)
         {
             return new PaginatedResult<T>(
                 new PaginatedResultMetaData(new PaginationResultSet(100, offset, limit)),

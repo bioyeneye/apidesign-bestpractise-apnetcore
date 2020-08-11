@@ -16,5 +16,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CsharpProjectLibrary\CsharpProjectLibrary.csproj" />
+    </ItemGroup>
+
 
 </Project>

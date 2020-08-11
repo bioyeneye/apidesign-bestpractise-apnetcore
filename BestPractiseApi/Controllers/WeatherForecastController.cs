@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BestPractiseApi.Data;
-using BestPractiseApi.models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -29,11 +28,7 @@ namespace BestPractiseApi.Controllers
         [HttpGet]
         public ActionResult Get(int limit = 10, int offset = 0)
         {
-            var data = DataService.GetWeatherForecastData()?.Results?
-                .Skip(offset)
-                .Take(limit)
-                .ToList();
-
+            var data = DataService.GetPaginatedWeatherForecasts(limit, offset);
             return Ok(ConstructPaginatedResult(data ?? new List<WeatherForecast>(), 100, limit, offset));
         }
     }
