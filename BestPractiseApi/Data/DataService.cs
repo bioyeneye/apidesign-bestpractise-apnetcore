@@ -1,10 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
 
 namespace BestPractiseApi.Data
 {
-    public class DataService
+    public static class DataService
     {
         public static WeatherForecastData GetWeatherForecastData()
         {
@@ -15,10 +16,17 @@ namespace BestPractiseApi.Data
 
         public static List<WeatherForecast> GetPaginatedWeatherForecasts(int limit, int offset)
         {
-            return DataService.GetWeatherForecastData()?.Results?
-                .Skip(offset)
-                .Take(limit)
-                .ToList();
+            try
+            {
+                return DataService.GetWeatherForecastData()?.Results?
+                    .Skip(offset)
+                    .Take(limit)
+                    .ToList();
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
         }
     }
 }
