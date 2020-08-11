@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BestPractiseApi.Data;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
@@ -26,10 +27,17 @@ namespace BestPractiseApi.Controllers
         }
 
         [HttpGet]
-        public ActionResult Get(int limit = 10, int offset = 0)
+        public IActionResult Get(int limit = 10, int offset = 0)
         {
-            var data = DataService.GetPaginatedWeatherForecasts(limit, offset);
-            return Ok(ConstructPaginatedResult(data ?? new List<WeatherForecast>(), 100, limit, offset));
+            try
+            {
+                var data = DataService.GetPaginatedWeatherForecasts(limit, offset);
+                return Ok(ConstructPaginatedResult(data ?? new List<WeatherForecast>(), 100, limit, offset));
+            }
+            catch (Exception e)
+            {
+                return  StatusCode(StatusCodes.Status500InternalServerError);
+            }
         }
     }
 }
